@@ -8,7 +8,13 @@ module.exports = {
       lg: '976px',
       xl: '1440px',
     },
-    extend: {},
+    extend: {
+      colors: {
+        primary: '#263859',
+        secondary: '#FF6768',
+        tertiary: '#17223B'
+      }
+    },
   },
   plugins: [],
 }
