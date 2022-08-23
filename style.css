@@ -3,13 +3,14 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    --Nunito-font: 'Nunito', sans-serif;
+    --Arima-font: 'Arima Madurai', cursive;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: var(--Nunito-font);
-}
-:root {
-    --Nunito-font: 'Nunito', sans-serif;
-    --Arima-font: 'Arima Madurai', cursive;
 }
