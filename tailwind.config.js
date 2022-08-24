@@ -11,11 +11,6 @@ module.exports = {
       xl: '1440px',
     },
     extend: {
-      colors: {
-        primary: '#263859',
-        secondary: '#FF6768',
-        tertiary: '#17223B'
-      }
     },
   },
   plugins: [],
