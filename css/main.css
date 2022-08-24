@@ -611,11 +611,6 @@ video {
   margin-bottom: 2.5rem;
 }
 
-.my-0{
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
 .mt-4{
   margin-top: 1rem;
 }
@@ -760,14 +755,6 @@ video {
   max-width: 80rem;
 }
 
-.max-w-xl{
-  max-width: 36rem;
-}
-
-.max-w-6xl{
-  max-width: 72rem;
-}
-
 .max-w-4xl{
   max-width: 56rem;
 }
@@ -794,10 +781,6 @@ video {
 
 .justify-between{
   justify-content: space-between;
-}
-
-.overflow-hidden{
-  overflow: hidden;
 }
 
 .rounded{
@@ -978,11 +961,11 @@ video {
 }
 
 ::-moz-placeholder {
-  color: black !important;
+  color: #626262!important;
 }
 
 input, select, textarea, ::placeholder {
-  color: black !important;
+  color: #626262!important;
 }
 
 .focus\:outline-none:focus{
