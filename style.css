@@ -34,3 +34,8 @@
     height: 0px;
     border: 4px solid #6B778D;
 }
+
+input, select, textarea, ::placeholder {
+    color: black !important;
+}
+  

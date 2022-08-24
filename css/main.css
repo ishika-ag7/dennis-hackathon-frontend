@@ -576,14 +576,14 @@ video {
   margin-right: 1rem;
 }
 
-.mx-8{
-  margin-left: 2rem;
-  margin-right: 2rem;
+.mx-16{
+  margin-left: 4rem;
+  margin-right: 4rem;
 }
 
-.my-24{
-  margin-top: 6rem;
-  margin-bottom: 6rem;
+.my-20{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .my-2{
@@ -596,24 +596,14 @@ video {
   margin-bottom: 1rem;
 }
 
-.my-20{
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+.mx-8{
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
-.mx-1{
-  margin-left: 0.25rem;
-  margin-right: 0.25rem;
-}
-
-.mx-16{
-  margin-left: 4rem;
-  margin-right: 4rem;
-}
-
-.mx-12{
-  margin-left: 3rem;
-  margin-right: 3rem;
+.my-24{
+  margin-top: 6rem;
+  margin-bottom: 6rem;
 }
 
 .mt-4{
@@ -684,14 +674,6 @@ video {
   margin-top: 0.625rem;
 }
 
-.mt-10{
-  margin-top: 2.5rem;
-}
-
-.mb-10{
-  margin-bottom: 2.5rem;
-}
-
 .block{
   display: block;
 }
@@ -704,24 +686,8 @@ video {
   height: 100vh;
 }
 
-.h-10{
-  height: 2.5rem;
-}
-
-.h-96{
-  height: 24rem;
-}
-
-.h-16{
-  height: 4rem;
-}
-
 .h-12{
   height: 3rem;
-}
-
-.h-32{
-  height: 8rem;
 }
 
 .h-52{
@@ -748,18 +714,6 @@ video {
   width: 50%;
 }
 
-.w-10{
-  width: 2.5rem;
-}
-
-.w-96{
-  width: 24rem;
-}
-
-.w-11\/12{
-  width: 91.666667%;
-}
-
 .w-10\/12{
   width: 83.333333%;
 }
@@ -768,28 +722,12 @@ video {
   width: 83.333333%;
 }
 
-.w-5\/12{
-  width: 41.666667%;
-}
-
 .w-8\/12{
   width: 66.666667%;
 }
 
-.w-8{
-  width: 2rem;
-}
-
-.w-80{
-  width: 20rem;
-}
-
 .w-9\/12{
   width: 75%;
-}
-
-.w-16{
-  width: 4rem;
 }
 
 .w-6{
@@ -877,6 +815,16 @@ video {
   padding-right: 1rem;
 }
 
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.px-6{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .px-5{
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -895,16 +843,6 @@ video {
 .py-1{
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-}
-
-.px-6{
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
-.py-4{
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 .pr-2{
@@ -1005,6 +943,14 @@ video {
   border: 4px solid #6B778D;
 }
 
+::-moz-placeholder {
+  color: black !important;
+}
+
+input, select, textarea, ::placeholder {
+  color: black !important;
+}
+
 .focus\:outline-none:focus{
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -1037,3 +983,4 @@ video {
     line-height: 2.25rem;
   }
 }
+  
