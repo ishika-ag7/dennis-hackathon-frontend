@@ -13,3 +13,7 @@
   .text-color {
     color: #FF6768;
   }
+
+  a[aria-current="page"] {
+    color: #FF6768;
+  }
