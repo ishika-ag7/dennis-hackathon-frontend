@@ -14,3 +14,23 @@
     box-sizing: border-box;
     font-family: var(--Nunito-font);
 }
+
+.profile-card {
+    background: #6B778D;
+    border-radius: 18px;
+}
+
+.badge {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 124px;
+    height: 40px;
+    background: #6B778D;
+    border-radius: 18px 18px 0px 0px;
+}
+
+.line {
+    height: 0px;
+    border: 4px solid #6B778D;
+}
