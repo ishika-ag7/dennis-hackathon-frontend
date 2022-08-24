@@ -17,3 +17,7 @@
   a[aria-current="page"] {
     color: #FF6768;
   }
+
+  li a:hover {
+    color: #FF6768;
+  }
