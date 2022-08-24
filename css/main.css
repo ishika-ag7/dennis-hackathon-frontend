@@ -652,32 +652,12 @@ video {
   margin-left: 1rem;
 }
 
-.ml-24{
-  margin-left: 6rem;
-}
-
-.mr-24{
-  margin-right: 6rem;
-}
-
-.mr-20{
-  margin-right: 5rem;
-}
-
 .mr-16{
   margin-right: 4rem;
 }
 
-.mr-1{
-  margin-right: 0.25rem;
-}
-
 .ml-20{
   margin-left: 5rem;
-}
-
-.mt-6{
-  margin-top: 1.5rem;
 }
 
 .mt-2\.5{
@@ -710,10 +690,6 @@ video {
 
 .max-w-7xl{
   max-width: 80rem;
-}
-
-.flex-none{
-  flex: none;
 }
 
 .flex-col{
