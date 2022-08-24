@@ -596,6 +596,26 @@ video {
   margin-bottom: 1rem;
 }
 
+.my-20{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.mx-1{
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.mx-16{
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.mx-12{
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
 .mt-4{
   margin-top: 1rem;
 }
@@ -664,6 +684,14 @@ video {
   margin-top: 0.625rem;
 }
 
+.mt-10{
+  margin-top: 2.5rem;
+}
+
+.mb-10{
+  margin-bottom: 2.5rem;
+}
+
 .block{
   display: block;
 }
@@ -676,6 +704,34 @@ video {
   height: 100vh;
 }
 
+.h-10{
+  height: 2.5rem;
+}
+
+.h-96{
+  height: 24rem;
+}
+
+.h-16{
+  height: 4rem;
+}
+
+.h-12{
+  height: 3rem;
+}
+
+.h-32{
+  height: 8rem;
+}
+
+.h-52{
+  height: 13rem;
+}
+
+.h-6{
+  height: 1.5rem;
+}
+
 .w-2\/6{
   width: 33.333333%;
 }
@@ -686,6 +742,54 @@ video {
 
 .w-1\/2{
   width: 50%;
+}
+
+.w-10{
+  width: 2.5rem;
+}
+
+.w-96{
+  width: 24rem;
+}
+
+.w-11\/12{
+  width: 91.666667%;
+}
+
+.w-10\/12{
+  width: 83.333333%;
+}
+
+.w-5\/6{
+  width: 83.333333%;
+}
+
+.w-5\/12{
+  width: 41.666667%;
+}
+
+.w-8\/12{
+  width: 66.666667%;
+}
+
+.w-8{
+  width: 2rem;
+}
+
+.w-80{
+  width: 20rem;
+}
+
+.w-9\/12{
+  width: 75%;
+}
+
+.w-16{
+  width: 4rem;
+}
+
+.w-6{
+  width: 1.5rem;
 }
 
 .max-w-7xl{
@@ -788,6 +892,11 @@ video {
 .px-6{
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .pr-2{
