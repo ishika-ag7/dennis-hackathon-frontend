@@ -13,7 +13,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: var(--Nunito-font);
-    overflow: hidden;
 }
 
 .profile-card {
