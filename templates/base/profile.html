@@ -11,22 +11,22 @@
 </head>
 
 <body>
-    <section class=" text-white  xl:h-screen tertiary">
+    <section class="text-white  xl:h-screen tertiary">
         <nav class="px-2 sm:px-4 py-2.5 rounded primary">
-            <div class="flex flex-wrap justify-between items-center mx-auto">
+            <div class="flex flex-wrap items-center justify-between mx-auto">
                 <a href="home.html" class="text-5xl font-bold">Logo</a>
-                <ul class="flex flex-col p-4 mt-4  rounded-lg  md:flex-row md:space-x-8 md:mt-0 text-lg">
-                    <li><a href="home.html" class="block py-2 pr-2 pl-2 text-white">Home</a></li>
-                    <li><a href="about.html" class="block py-2 pr-2 pl-2 rounded">About</a></li>
-                    <li><a href="saved_profile.html" class="block py-2 pr-2 pl-2 rounded">Saved</a></li>
-                    <li><a href="account.html" class="block py-2 pr-2 pl-2 rounded">Account</a></li>
-                    <li><a href="login.html" class="block py-2 pr-2 pl-2 rounded">Logout</a></li>
+                <ul class="flex flex-col p-4 mt-4 text-lg rounded-lg md:flex-row md:space-x-8 md:mt-0">
+                    <li><a href="home.html" class="block py-2 pl-2 pr-2 text-white">Home</a></li>
+                    <li><a href="about.html" class="block py-2 pl-2 pr-2 rounded">About</a></li>
+                    <li><a href="saved_profile.html" class="block py-2 pl-2 pr-2 rounded">Saved</a></li>
+                    <li><a href="account.html" class="block py-2 pl-2 pr-2 rounded">Account</a></li>
+                    <li><a href="login.html" class="block py-2 pl-2 pr-2 rounded">Logout</a></li>
                 </ul>
             </div>
         </nav>
-        <main class="flex mt-8 mx-4 text-lg pb-8">
+        <main class="flex pb-8 mx-4 mt-8 text-lg">
             <aside class=" lg:w-1/4">
-                <div class="profile-card flex justify-center py-8">
+                <div class="flex justify-center py-8 profile-card">
                     <div class="text-center">
                         <img src="../../images/Profile Photo.svg" alt="profile picture">
                         <p>Dennis Ivanov</p>
@@ -36,21 +36,21 @@
                 </div>
 
                 <div class="social-info">
-                    <span class="badge text-center mt-8">Social Info</span>
+                    <span class="mt-8 text-center badge">Social Info</span>
                     <hr class="line w-full mb-2.5">
                     <p>LinkedIn &nbsp; &nbsp; &nbsp; &nbsp; <span>:username</span></p>
                     <p class="mt-2">Github &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span>:username</span></p>
                     <p class="mt-2">Twitter &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span>:username</span></p>
                     <p class="mt-2">Facebook &nbsp; &nbsp; &nbsp; <span>:username</span></p>
                     <div class="">
-                        <button class="btn text-white secondary py-2 px-4 mt-4 rounded-lg">Schedule Video Call</button>
+                        <button class="px-4 py-2 mt-4 text-white rounded-lg btn secondary">Schedule Video Call</button>
                     </div>
                 </div>
             </aside>
             <section class="lg:w-3/4">
                 <div class="ml-6">
                     <div class="basic-info">
-                        <span class="badge text-center">Basic Info</span>
+                        <span class="text-center badge">Basic Info</span>
                         <hr class="line w-full mb-2.5">
                         <p>Name &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span>:Dennis Ivanov</span></p>
                         <p class="mt-2">Username &nbsp; &nbsp; <span>:dennisivy</span></p>
@@ -59,8 +59,8 @@
                         <p class="mt-2">Title &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <span>:FullStack Django
                                 Developer</span></p>
 
-                        <div class="about mt-8">
-                            <span class="text-2xl mb-6">About:</span>
+                        <div class="mt-8 about">
+                            <span class="mb-6 text-2xl">About:</span>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat ut purus nec
                                 scelerisque. Nunc egestas blandit ligula, auctor scelerisque quam accumsan in. Vivamus
                                 facilisis vitae urna nec iaculis. Curabitur suscipit dapibus lectus, in pellentesque
@@ -74,8 +74,8 @@
                         </div>
                     </div>
 
-                    <div class="more-info mt-8">
-                        <span class="badge text-center">More Info</span>
+                    <div class="mt-8 more-info">
+                        <span class="text-center badge">More Info</span>
                         <hr class="line w-full mb-2.5">
                         <div class="flex">
 
@@ -95,15 +95,11 @@
                         </div>
                     </div>
 
-                    <div class="skills mt-8">
-                        <div class="actions text-color text-right -mb-8 mr-4">
-                            <a href="edit_skills.html" class="mr-6">Edit Skills</a>
-                            <a href="add_skill.html">Add Skill</a>
-                        </div>
-                        <span class="badge text-center">Skills</span>
+                    <div class="mt-8 skills">
+                        <span class="text-center badge">Skills</span>
                         <hr class="line w-full mb-2.5">
                         <div>
-                            <div class=" flex">
+                            <div class="flex ">
                                 <span class="mr-12">Python</span>
                                 <p class="ml-12">Cras ultricies ligula sed magna dictum porta. Vivamus suscipit tortor
                                     eget felis porttitor volutpat. Quisque velit nisi, pretium ut lacinia in, elementum
@@ -119,15 +115,15 @@
                         </div>
                     </div>
 
-                    <div class="projects mt-8">
-                        <div class="actions text-color text-right -mb-8 mr-4">
+                    <div class="mt-8 projects">
+                        <div class="mr-4 -mb-8 text-right actions text-color">
                             <a href="edit_projects.html" class="mr-6">Edit Projects</a>
                             <a href="add_project.html">Add Project</a>
                         </div>
-                        <span class="badge text-center">Projects</span>
+                        <span class="text-center badge">Projects</span>
                         <hr class="line w-full mb-2.5">
                         <div>
-                            <div class=" flex">
+                            <div class="flex ">
                                 <span class="mr-12">Project 1</span>
                                 <p class="ml-8">Cras ultricies ligula sed magna dictum porta. Vivamus suscipit tortor
                                     eget felis porttitor volutpat. </p>
@@ -135,20 +131,20 @@
                             <div class="flex">
                                 <div class="mr-16"></div>
                                 <div class="ml-20 mt-2.5">
-                                    <button class="btn text-white secondary py-1 px-6 mr-4 rounded-lg">Demo</button>
-                                    <button class="btn text-white secondary py-1 px-6 ml-4 rounded-lg">Github</button>
+                                    <button class="px-6 py-1 mr-4 text-white rounded-lg btn secondary">Demo</button>
+                                    <button class="px-6 py-1 ml-4 text-white rounded-lg btn secondary">Github</button>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="github-info">
-                        <span class="badge text-center mt-8">GitHub Info</span>
+                        <span class="mt-8 text-center badge">GitHub Info</span>
                         <hr class="line w-full mb-2.5">
                         <p>GitHub Profile &nbsp; &nbsp; &nbsp; &nbsp; <span>:username</span></p>
                     </div>
                     <div class="linkedin-info">
-                        <span class="badge text-center mt-8">LinkedIn Info</span>
+                        <span class="mt-8 text-center badge">LinkedIn Info</span>
                         <hr class="line w-full mb-2.5">
                         <p>LinkedIn Profile &nbsp; &nbsp; &nbsp; &nbsp; <span>:username</span></p>
                     </div>
