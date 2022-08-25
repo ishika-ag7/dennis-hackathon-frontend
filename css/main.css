@@ -685,6 +685,10 @@ video {
   margin-top: 0.625rem;
 }
 
+.mt-6{
+  margin-top: 1.5rem;
+}
+
 .mb-4{
   margin-bottom: 1rem;
 }
@@ -951,6 +955,11 @@ video {
   border-radius: 18px;
 }
 
+.box {
+  background: #6B778D;
+  border-radius: 10px;
+}
+
 .badge {
   display: flex;
   flex-direction: column;
@@ -967,11 +976,14 @@ video {
 }
 
 ::-moz-placeholder {
-  color: #626262!important;
+  color: #626262 !important;
 }
 
-input, select, textarea, ::placeholder {
-  color: #626262!important;
+input,
+select,
+textarea,
+::placeholder {
+  color: #626262 !important;
 }
 
 .focus\:outline-none:focus{
@@ -1022,4 +1034,3 @@ input, select, textarea, ::placeholder {
     height: 100vh;
   }
 }
-
