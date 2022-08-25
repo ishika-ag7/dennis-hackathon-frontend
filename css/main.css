@@ -566,11 +566,6 @@ video {
   margin-right: auto;
 }
 
-.my-8{
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
 .mx-4{
   margin-left: 1rem;
   margin-right: 1rem;
@@ -579,11 +574,6 @@ video {
 .mx-16{
   margin-left: 4rem;
   margin-right: 4rem;
-}
-
-.my-20{
-  margin-top: 5rem;
-  margin-bottom: 5rem;
 }
 
 .my-2{
@@ -601,9 +591,14 @@ video {
   margin-right: 2rem;
 }
 
-.my-24{
-  margin-top: 6rem;
-  margin-bottom: 6rem;
+.my-10{
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.my-6{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .mt-4{
@@ -654,12 +649,28 @@ video {
   margin-right: 1.5rem;
 }
 
+.mt-20{
+  margin-top: 5rem;
+}
+
+.mb-10{
+  margin-bottom: 2.5rem;
+}
+
 .ml-8{
   margin-left: 2rem;
 }
 
 .ml-4{
   margin-left: 1rem;
+}
+
+.mt-24{
+  margin-top: 6rem;
+}
+
+.mb-12{
+  margin-bottom: 3rem;
 }
 
 .mr-16{
@@ -674,16 +685,16 @@ video {
   margin-top: 0.625rem;
 }
 
+.mb-4{
+  margin-bottom: 1rem;
+}
+
 .block{
   display: block;
 }
 
 .flex{
   display: flex;
-}
-
-.h-screen{
-  height: 100vh;
 }
 
 .h-12{
@@ -700,10 +711,6 @@ video {
 
 .h-4{
   height: 1rem;
-}
-
-.w-2\/6{
-  width: 33.333333%;
 }
 
 .w-full{
@@ -740,6 +747,10 @@ video {
 
 .max-w-7xl{
   max-width: 80rem;
+}
+
+.max-w-4xl{
+  max-width: 56rem;
 }
 
 .flex-col{
@@ -835,14 +846,14 @@ video {
   padding-right: 10rem;
 }
 
-.py-10{
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
 .py-1{
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+}
+
+.py-3{
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .pr-2{
@@ -853,8 +864,20 @@ video {
   padding-left: 0.5rem;
 }
 
+.pb-8{
+  padding-bottom: 2rem;
+}
+
 .pt-20{
   padding-top: 5rem;
+}
+
+.pt-10{
+  padding-top: 2.5rem;
+}
+
+.pb-5{
+  padding-bottom: 1.25rem;
 }
 
 .text-center{
@@ -944,11 +967,11 @@ video {
 }
 
 ::-moz-placeholder {
-  color: black !important;
+  color: #626262!important;
 }
 
 input, select, textarea, ::placeholder {
-  color: black !important;
+  color: #626262!important;
 }
 
 .focus\:outline-none:focus{
@@ -983,4 +1006,20 @@ input, select, textarea, ::placeholder {
     line-height: 2.25rem;
   }
 }
-  
+
+@media (min-width: 976px){
+  .lg\:w-1\/4{
+    width: 25%;
+  }
+
+  .lg\:w-3\/4{
+    width: 75%;
+  }
+}
+
+@media (min-width: 1440px){
+  .xl\:h-screen{
+    height: 100vh;
+  }
+}
+
