@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../css/colors.css">
+    <title>Edit Account - Hire the best Developers</title>
+</head>
+
+<body>
+
+    <body>
+        <section class="text-white xl:h-screen tertiary">
+            <nav class="px-2 sm:px-4 py-2.5 rounded primary ">
+                <div class="flex flex-wrap items-center justify-between mx-auto">
+                    <a href="/home.html" class="text-5xl font-bold">Logo</a>
+                    <ul class="flex flex-col p-4 mt-4 text-lg rounded-lg md:flex-row md:space-x-8 md:mt-0">
+                        <li><a href="/home.html" class="block py-2 pl-2 pr-2 text-white">Home</a></li>
+                        <li><a href="#" class="block py-2 pl-2 pr-2 rounded">About</a></li>
+                        <li><a href="../base/saved_profile.html" class="block py-2 pl-2 pr-2 rounded">Saved</a></li>
+                        <li><a href="account.html" class="block py-2 pl-2 pr-2 rounded">Account</a></li>
+                        <li><a href="login.html" class="block py-2 pl-2 pr-2 rounded">Logout</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="h-12"></div>
+            <main class="flex m-auto primary max-w-7xl">
+                <div class="w-full mx-16 mt-20 mb-10 form">
+                    <form action="" method="post">
+                        <div class="flex">
+                            <input type="text" placeholder="First Name" name="first-name"
+                                class="w-1/2 p-3 px-4 py-2 my-2 border rounded-md focus:outline-none">
+                            <input type="text" placeholder="Last Name" name="last-name"
+                                class="w-1/2 p-3 px-4 py-2 my-2 ml-8 border rounded-md focus:outline-none">
+                        </div>
+                        <div class="flex">
+                            <input type="text" placeholder="Username" name="username"
+                                class="w-1/2 p-3 px-4 py-2 my-2 border rounded-md focus:outline-none">
+                            <input type="text" placeholder="Title"
+                                class="w-1/2 p-3 px-4 py-2 my-2 ml-8 border rounded-md focus:outline-none">
+                        </div>
+                        <div>
+                            <input type="email" placeholder="Email" name="email"
+                                class="w-full p-3 px-4 py-2 my-4 border rounded-md focus:outline-none">
+                        </div>
+                        <div>
+                            <textarea placeholder="About You......" name="about-you"
+                                class="w-full p-3 px-4 py-2 my-4 border rounded-md h-52 focus:outline-none"></textarea>
+                        </div>
+
+                        <div class="flex">
+                            <div class="w-1/2">
+                                <label for="profile-image">Profile Image: </label>
+                                <input type="file" placeholder="choose file" name="profile-image"
+                                    class="p-3 px-4 py-2 my-2 border rounded-md focus:outline-none">
+                            </div>
+                            <div class="w-1/2">
+                                <label for="degree">Degree: </label>
+                                <select name="degree" id="degree"
+                                    class="w-10/12 p-3 px-4 py-2 my-2 ml-8 border rounded-md focus:outline-none">
+                                    <option value="masters">Masters</option>
+                                    <option value="bachelors">Bachelors</option>
+                                    <option value="high school">High School</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="country">Country: </label>
+                            <select name="country" id="country"
+                                class="w-5/6 p-3 px-4 py-2 my-2 ml-8 border rounded-md focus:outline-none">
+                                <option value="usa">USA</option>
+                                <option value="nigeria">Nigeria</option>
+                                <option value="india">India</option>
+                                <option value="usa">USA</option>
+                                <option value="nigeria">Nigeria</option>
+                                <option value="india">India</option>
+                                <option value="usa">USA</option>
+                                <option value="nigeria">Nigeria</option>
+                                <option value="india">India</option>
+                            </select>
+                        </div>
+
+                        <div class="flex">
+                            <div class="w-1/2">
+                                <label for="level-of-expertise">Level of Expertise: </label>
+                                <select name="level-of-expertise" id="level-of-expertise"
+                                    class="w-8/12 p-3 px-4 py-2 my-2 ml-8 border rounded-md focus:outline-none">
+                                    <option value="expert">Expert</option>
+                                    <option value="intermediate">Intermediate</option>
+                                    <option value="novice">Novice</option>
+                                </select>
+                            </div>
+                            <div class="w-1/2">
+                                <label for="experience">Experience: </label>
+                                <select name="experience" id="experience"
+                                    class="w-9/12 p-3 px-4 py-2 my-2 ml-8 border rounded-md focus:outline-none">
+                                    <option value="1-3 years">1-3 Years</option>
+                                    <option value="4-5 years">4-5 Years</option>
+                                    <option value="10+ years">10+ Years</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="flex">
+                            <div class="w-1/2">
+                                <label for="looking-for">Looking For: </label>
+                                <select name="looking-for" id="looking-for"
+                                    class="w-9/12 p-3 px-4 py-2 my-2 ml-8 border rounded-md focus:outline-none">
+                                    <option value="part-time">Part Time</option>
+                                    <option value="full-time">Full Time</option>
+                                    <option value="contract">Contract</option>
+                                </select>
+                            </div>
+
+                            <div class="w-1/2">
+                                <label for="hirable">Are You Hirable:
+                                </label>
+                                <input type="checkbox" id="hirable" name="hirable"
+                                    class="w-6 h-6 p-3 ml-4 rounded-lg focus:outline-none ">
+                            </div>
+                        </div>
+
+                        <div class="flex">
+                            <input type="text" placeholder="LinkedIn Username" name="linkedin-username"
+                                class="w-1/2 p-3 px-4 py-2 my-2 border rounded-md focus:outline-none">
+                            <input type="text" placeholder="Github Username" name="github-username"
+                                class="w-1/2 p-3 px-4 py-2 my-2 ml-8 border rounded-md focus:outline-none">
+                        </div>
+                        <div class="flex">
+                            <input type="text" placeholder="Twitter Username" name="twitter-username"
+                                class="w-1/2 p-3 px-4 py-2 my-2 border rounded-md focus:outline-none">
+                            <input type="text" placeholder="Facebook Username" name="facebook-username"
+                                class="w-1/2 p-3 px-4 py-2 my-2 ml-8 border rounded-md focus:outline-none">
+                        </div>
+                        <div>
+                            <button type="submit"
+                                class="w-full px-6 py-4 mt-4 font-bold text-white rounded-lg btn secondary">Update</button>
+                        </div>
+                    </form>
+                </div>
+            </main>
+
+        </section>
+    </body>
+</body>
+
+</html>
