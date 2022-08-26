@@ -2,6 +2,7 @@
 module.exports = {
   content: [
     "./templates/**/*.html",
+    './about.html',
   ],
   theme: {
     screens: {
