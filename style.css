@@ -82,5 +82,5 @@ button {
 }
 
 .header-radius, .nav-radius {
-    border-radius: 0 30px;
+    border-radius: 0 0 30px 30px;
 }
