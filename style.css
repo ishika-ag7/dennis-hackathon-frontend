@@ -76,3 +76,7 @@ textarea,
     width: 35px;
     height: 35px;
 }
+
+button {
+    @apply transform transition duration-500 hover:scale-95;
+}
