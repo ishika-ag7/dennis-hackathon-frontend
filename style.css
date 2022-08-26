@@ -51,3 +51,25 @@ textarea,
 ::placeholder {
     color: #626262 !important;
 }
+/* 
+ <div class="search-field">
+            <form action="" class="flex flex-col">
+                <div class="row1 flex">
+                    <div class="flex">
+                        <label for="hirable">Hirable:</label>
+                        <select name="hirable" id="hirable">
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                    <div class="flex">
+                        <label for="hirable">Hirable:</label>
+                        <select name="hirable" id="hirable">
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row2"></div>
+            </form>
+        </div> */
