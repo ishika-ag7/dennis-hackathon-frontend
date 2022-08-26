@@ -80,3 +80,7 @@ textarea,
 button {
     @apply transform transition duration-500 hover:scale-95;
 }
+
+.header-radius, .nav-radius {
+    border-radius: 0 30px;
+}
