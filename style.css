@@ -78,3 +78,23 @@ textarea,
                 <div class="row2"></div>
             </form>
         </div> */
+
+.search-container {
+            margin: 10px 0 38px;
+        }
+
+.search-field input {
+    padding: 14px;
+    border-radius: 5px;
+    width: 800px;
+}
+.btn-box {
+    width: 65px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.btn-box button {
+    width: 35px;
+    height: 35px;
+}

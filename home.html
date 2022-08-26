@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,28 +11,41 @@
 </head>
 
 <body class="text-white xl:h-screen tertiary">
-    <section >
+    <section>
         <nav class="px-2 sm:px-4 py-2.5 rounded primary">
             <div class="flex flex-wrap items-center justify-between mx-auto">
                 <a href="/home.html" class="text-5xl font-bold">Logo</a>
                 <ul class="flex flex-col p-4 mt-4 text-lg rounded-lg md:flex-row md:space-x-8 md:mt-0">
                     <li><a href="/home.html" class="block py-2 pl-2 pr-2 text-white" aria-current="page">Home</a></li>
                     <li><a href="about.html" class="block py-2 pl-2 pr-2 rounded">About</a></li>
-                    <li><a href="./Saved Profiles_profile.html" class="block py-2 pl-2 pr-2 rounded">Saved Profiles</a></li>
+                    <li><a href="./Saved Profiles_profile.html" class="block py-2 pl-2 pr-2 rounded">Saved Profiles</a>
+                    </li>
                     <li><a href="../accounts/account.html" class="block py-2 pl-2 pr-2 rounded">Account</a></li>
                     <li><a href="../account/login.html" class="block py-2 pl-2 pr-2 rounded">Logout</a></li>
                 </ul>
             </div>
         </nav>
-       
-        <header>
-            <div class="hero-img">
 
+        <header class="primary flex flex-col justify-center items-center">
+            <div class="hero-img">
+                <img src="images/Search Svg.svg" alt="hero Img">
             </div>
-            
+            <div class="search-container flex justify-center items-center">
+                <form action="" class="flex">
+                    <div class="search-field">
+                        <input type="search" name="search" id="search" placeholder="Search by Name, Programming Languages, etc...">
+                    </div>
+                    <div class="btn-box secondary flex justify-center items-center p-6">
+                        <button type="submit">
+                            <img src="images/Vector (2).svg" alt="search icon">
+                        </button>
+                    </div>
+                </form>
+            </div>
         </header>
 
-      
+
     </section>
 </body>
+
 </html>
