@@ -606,6 +606,11 @@ video {
   margin-right: auto;
 }
 
+.my-6{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 .mx-3{
   margin-left: 0.75rem;
   margin-right: 0.75rem;
@@ -651,18 +656,12 @@ video {
   margin-bottom: 2.5rem;
 }
 
-.my-6{
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
-.my-24{
-  margin-top: 6rem;
-  margin-bottom: 6rem;
-}
-
 .mt-4{
   margin-top: 1rem;
+}
+
+.mt-60{
+  margin-top: 15rem;
 }
 
 .mb-5{
@@ -765,14 +764,6 @@ video {
   margin-bottom: 1rem;
 }
 
-.mt-44{
-  margin-top: 11rem;
-}
-
-.mt-60{
-  margin-top: 15rem;
-}
-
 .block{
   display: block;
 }
@@ -799,10 +790,6 @@ video {
 
 .h-4{
   height: 1rem;
-}
-
-.h-screen{
-  height: 100vh;
 }
 
 .w-full{
@@ -936,11 +923,6 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.py-24{
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-}
-
 .py-8{
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -989,6 +971,10 @@ video {
   padding-right: 0.5rem;
 }
 
+.pb-10{
+  padding-bottom: 2.5rem;
+}
+
 .pb-8{
   padding-bottom: 2rem;
 }
@@ -1003,10 +989,6 @@ video {
 
 .pb-5{
   padding-bottom: 1.25rem;
-}
-
-.pb-10{
-  padding-bottom: 2.5rem;
 }
 
 .text-center{
@@ -1173,10 +1155,6 @@ button:hover{
 }
 
 @media (min-width: 480px){
-  .sm\:h-screen{
-    height: 100vh;
-  }
-
   .sm\:w-1\/2{
     width: 50%;
   }
@@ -1185,19 +1163,11 @@ button:hover{
     padding-left: 1rem;
     padding-right: 1rem;
   }
-
-  .sm\:pb-10{
-    padding-bottom: 2.5rem;
-  }
 }
 
 @media (min-width: 768px){
   .md\:mt-0{
     margin-top: 0px;
-  }
-
-  .md\:h-screen{
-    height: 100vh;
   }
 
   .md\:flex-row{
@@ -1208,10 +1178,6 @@ button:hover{
     --tw-space-x-reverse: 0;
     margin-right: calc(2rem * var(--tw-space-x-reverse));
     margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
-  .md\:pb-10{
-    padding-bottom: 2.5rem;
   }
 
   .md\:text-3xl{
