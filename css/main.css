@@ -752,6 +752,10 @@ video {
   margin-top: 0.625rem;
 }
 
+.ml-16{
+  margin-left: 4rem;
+}
+
 .mt-6{
   margin-top: 1.5rem;
 }
@@ -1209,11 +1213,5 @@ button:hover{
 
   .lg\:w-3\/4{
     width: 75%;
-  }
-}
-
-@media (min-width: 1440px){
-  .xl\:h-screen{
-    height: 100vh;
   }
 }
