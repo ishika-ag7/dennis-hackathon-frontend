@@ -23,6 +23,7 @@
 .box {
     background: #6B778D;
     border-radius: 10px;
+    padding: 25px 20px;
 }
 
 .badge {
@@ -38,6 +39,10 @@
 .line {
     height: 0px;
     border: 4px solid #6B778D;
+}
+
+h3 {
+    font-size: 20px;
 }
 
 input,
