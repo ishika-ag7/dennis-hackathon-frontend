@@ -553,6 +553,14 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.visible{
+  visibility: visible;
+}
+
+.invisible{
+  visibility: hidden;
+}
+
 .m-auto{
   margin: auto;
 }
@@ -711,12 +719,20 @@ video {
   margin-bottom: 1rem;
 }
 
+.mt-10{
+  margin-top: 2.5rem;
+}
+
 .block{
   display: block;
 }
 
 .flex{
   display: flex;
+}
+
+.hidden{
+  display: none;
 }
 
 .h-12{
@@ -783,6 +799,22 @@ video {
   width: 1rem;
 }
 
+.w-1{
+  width: 0.25rem;
+}
+
+.w-2\/5{
+  width: 40%;
+}
+
+.w-4\/5{
+  width: 80%;
+}
+
+.w-3\/5{
+  width: 60%;
+}
+
 .max-w-7xl{
   max-width: 80rem;
 }
@@ -843,16 +875,16 @@ video {
   border-width: 1px;
 }
 
+.border-none{
+  border-style: none;
+}
+
 .p-4{
   padding: 1rem;
 }
 
 .p-3{
   padding: 0.75rem;
-}
-
-.p-6{
-  padding: 1.5rem;
 }
 
 .px-2{
@@ -1046,29 +1078,6 @@ textarea,
 ::placeholder {
   color: #626262 !important;
 }
-
-/* 
- <div class="search-field">
-            <form action="" class="flex flex-col">
-                <div class="row1 flex">
-                    <div class="flex">
-                        <label for="hirable">Hirable:</label>
-                        <select name="hirable" id="hirable">
-                            <option value="yes">Yes</option>
-                            <option value="no">No</option>
-                        </select>
-                    </div>
-                    <div class="flex">
-                        <label for="hirable">Hirable:</label>
-                        <select name="hirable" id="hirable">
-                            <option value="yes">Yes</option>
-                            <option value="no">No</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="row2"></div>
-            </form>
-        </div> */
 
 .search-container {
   margin: 10px 0 38px;
