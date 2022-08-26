@@ -9,6 +9,10 @@
   .secondary {
     background-color: #FF6768;
   }
+  .skill-badge {
+    text-align: center;
+    background-color:  #263859;
+  }
 
   .text-color {
     color: #FF6768;
