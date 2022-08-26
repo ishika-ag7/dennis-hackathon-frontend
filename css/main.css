@@ -796,6 +796,10 @@ video {
   height: 1rem;
 }
 
+.h-screen{
+  height: 100vh;
+}
+
 .w-full{
   width: 100%;
 }
@@ -1213,5 +1217,11 @@ button:hover{
 
   .lg\:w-3\/4{
     width: 75%;
+  }
+}
+
+@media (min-width: 1440px){
+  .xl\:h-screen{
+    height: 100vh;
   }
 }
