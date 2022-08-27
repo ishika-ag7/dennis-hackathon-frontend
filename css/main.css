@@ -1289,6 +1289,10 @@ span{
     margin-left: 0.75rem;
   }
 
+  .lg\:ml-8{
+    margin-left: 2rem;
+  }
+
   .lg\:flex{
     display: flex;
   }
@@ -1315,8 +1319,16 @@ span{
     margin-right: 1.25rem;
   }
 
+  .xl\:ml-8{
+    margin-left: 2rem;
+  }
+
   .xl\:h-screen{
     height: 100vh;
+  }
+
+  .xl\:w-1\/2{
+    width: 50%;
   }
 
   .xl\:flex-row{
