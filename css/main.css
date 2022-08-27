@@ -776,6 +776,10 @@ video {
   display: flex;
 }
 
+.h-screen{
+  height: 100vh;
+}
+
 .h-12{
   height: 3rem;
 }
@@ -794,10 +798,6 @@ video {
 
 .h-4{
   height: 1rem;
-}
-
-.h-screen{
-  height: 100vh;
 }
 
 .w-full{
@@ -1155,6 +1155,12 @@ button:hover{
 
 .header-radius, .nav-radius {
   border-radius: 0 0 30px 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .search-field input {
+    width: 300px;
+  }
 }
 
 .focus\:outline-none:focus{

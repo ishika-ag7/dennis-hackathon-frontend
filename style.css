@@ -84,3 +84,9 @@ button {
 .header-radius, .nav-radius {
     border-radius: 0 0 30px 30px;
 }
+
+@media screen and (max-width: 768px) {
+    .search-field input {
+        width: 300px;
+    }
+}
