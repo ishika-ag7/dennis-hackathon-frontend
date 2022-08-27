@@ -13,28 +13,28 @@
 
 <body class="pt-20 text-white h-screen  tertiary">
     <section>
-        <main class="px-40 pt-10 pb-5 m-auto primary max-w-7xl">
-            <div class="w-full mx-8 mt-24 mb-12 ">
+        <main class="lg:px-40 pt-10 pb-5 m-auto primary max-w-7xl">
+            <div class="lg:w-full mx-8 mt-24 mb-12 ">
                 <h2 class="mb-6 text-xl font-bold leading-tight tracking-tight md:text-3xl">Register Here</h2>
                 <form action="">
-                    <div class="flex">
+                    <div class="flex flex-col lg:flex-row">
                         <input type="text" placeholder="First Name" name="first-name"
-                            class="w-1/2 p-3 px-4 py-2 my-2 border rounded-md focus:outline-none">
+                            class="lg:w-1/2 p-3 px-4 py-2 lg:my-2 mb-4 lg:border rounded-md focus:outline-none">
                         <input type="text" placeholder="Last Name" name="last-name"
-                            class="w-1/2 p-3 px-4 py-2 my-2 ml-8 border rounded-md focus:outline-none">
+                            class="lg:w-1/2 p-3 px-4 py-2 lg:my-2 lg:ml-8 border rounded-md focus:outline-none">
                     </div>
                     <div>
                         <input type="email" placeholder="Email" name="email"
                             class="w-full p-3 px-4 py-2 my-4 border rounded-md focus:outline-none">
                     </div>
-                    <div class="flex">
+                    <div class="flex flex-col lg:flex-row">
                         <input type="password" placeholder="Password" name="password"
-                            class="w-1/2 px-4 py-2 my-2 border rounded-md focus:outline-none ">
+                            class="lg:w-1/2 px-4 py-2 lg:my-2 mb-4 lg:border rounded-md focus:outline-none ">
                         <input type="password" placeholder=" Confirm Password"
-                            class="w-1/2 px-4 py-2 my-2 ml-8 border rounded-md focus:outline-none ">
+                            class="lg:w-1/2 px-4 py-2 lg:my-2 mb-4 lg:ml-8 border rounded-md focus:outline-none ">
                     </div>
-                    <div class="flex items-center content-center">
-                        <div class="w-1/2 ">
+                    <div class="flex flex-col lg:flex-row lg:items-center lg:content-center">
+                        <div class="lg:w-1/2 ">
                             <span class="font-bold">Join as: </span>
                             <input type="radio" class="ml-4" name="hiring-manager" id="hiring-manager">
                             <label for="hiring-manager">Hiring Manager</label>
@@ -42,7 +42,7 @@
                             <label for="developer">Developr / Job Seeker</label>
                         </div>
                         <button type="submit"
-                            class=" w-1/2 text-white focus:outline-none ml-8 font-medium text-sm mt-4 px-5 py-2.5 text-center secondary rounded-lg">Register</button>
+                            class=" lg:w-1/2 text-white focus:outline-none lg:ml-8 font-medium text-sm mt-4 px-5 py-2.5 text-center secondary rounded-lg">Register</button>
                     </div>
                     <p class="mt-4 text-center">Already have an account? <a href="login.html"
                             class="text-color">Login</a></p>
