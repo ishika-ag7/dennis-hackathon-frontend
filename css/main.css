@@ -756,8 +756,8 @@ video {
   margin-top: 0.625rem;
 }
 
-.ml-16{
-  margin-left: 4rem;
+.ml-3{
+  margin-left: 0.75rem;
 }
 
 .mt-6{
@@ -1142,6 +1142,60 @@ textarea,
 .btn-box button {
   width: 35px;
   height: 35px;
+}
+
+/* Profile */
+
+.name {
+  margin-left: 35px;
+}
+
+.indus-name {
+  margin-left: 50px;
+}
+
+.sum {
+  margin-left: 85px;
+}
+
+.country {
+  margin-left: 105px;
+}
+
+/* Education */
+
+.deg {
+  margin-left: 122px;
+}
+
+.fos {
+  margin-left: 70px;
+}
+
+.dat {
+  margin-left: 145px;
+}
+
+.sch {
+  margin-left: 30px;
+}
+
+/* Experience */
+
+.job {
+  margin-left: 36px;
+}
+
+.com{
+  margin-left: 18px;
+}
+
+.work-as {
+  margin-left: 15px;
+}
+
+.e-date {
+  margin-left: 123px;
 }
 
 button{
