@@ -15,6 +15,11 @@
     font-family: var(--Nunito-font);
 }
 
+/* nav a img {
+    object-fit: contain;
+    height: 200px;
+} */
+
 .profile-card {
     background: #6B778D;
     border-radius: 18px;
